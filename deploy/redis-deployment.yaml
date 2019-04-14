@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:5-alpine
+        image: harbor.pks.migros.local/poc/redis:5-alpine
         ports:
         - containerPort: 6379
           protocol: TCP
